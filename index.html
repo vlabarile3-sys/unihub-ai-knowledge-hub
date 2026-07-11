@@ -3,21 +3,55 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>UniHub AI Knowledge Hub - Demo</title>
-  <style>body{font-family:Arial,sans-serif;max-width:800px;margin:40px auto;padding:0 16px;line-height:1.5}code{background:#f4f4f4;padding:2px 6px;border-radius:4px}.box{border:1px solid #ddd;border-radius:10px;padding:16px}</style>
+  <meta http-equiv="refresh" content="0; url=demo.html" />
+  <title>UniHub AI Knowledge Hub - Live Interactive Demo</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Inter, Arial, sans-serif;
+      background: radial-gradient(circle at top left, rgba(99,102,241,.28), transparent 30%), #0b1020;
+      color: #e5eefc;
+      padding: 24px;
+    }
+    .card {
+      max-width: 760px;
+      width: 100%;
+      padding: 32px;
+      border-radius: 28px;
+      background: rgba(15, 23, 42, 0.88);
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      box-shadow: 0 24px 80px rgba(2, 8, 23, 0.5);
+      text-align: center;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 14px 22px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .muted { color: #94a3b8; }
+    code {
+      background: rgba(255,255,255,.06);
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+  </style>
 </head>
 <body>
-  <h1>UniHub AI Knowledge Hub (Mock Demo)</h1>
-  <div class="box">
-    <p>This is a sanitized public demo landing page for portfolio purposes.</p>
-    <p>Source modules:</p>
-    <ul>
-      <li><code>Code.gs</code></li>
-      <li><code>Index.html</code></li>
-      <li><code>CSS.html</code></li>
-      <li><code>JS.html</code></li>
-    </ul>
-    <p><a href="https://github.com/vlabarile3-sys/unihub-ai-knowledge-hub" target="_blank" rel="noopener">Open repository</a></p>
-  </div>
+  <main class="card">
+    <p class="muted">UniHub AI Knowledge Hub</p>
+    <h1 style="margin:8px 0 12px;font-size:clamp(32px,5vw,48px);">Live Interactive Demo</h1>
+    <p class="muted" style="font-size:18px;line-height:1.7;">Redirecting to the standalone static QA workspace demo powered by local mock data.</p>
+    <a class="button" href="demo.html">Open demo.html</a>
+    <p class="muted" style="margin-top:20px;">Source modules preserved for reference: <code>Code.gs</code>, <code>Index.html</code>, <code>CSS.html</code>, <code>JS.html</code>.</p>
+  </main>
 </body>
 </html>
